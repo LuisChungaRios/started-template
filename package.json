@@ -1,0 +1,27 @@
+{
+  "name": "laravel-mix",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npm run development",
+    "development": "mix",
+    "watch": "mix watch",
+    "watch-poll": "mix watch -- --watch-options-poll=1000",
+    "hot": "mix watch --hot",
+    "prod": "npm run production",
+    "production": "mix --production"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.26.13",
+    "browser-sync-webpack-plugin": "^2.2.2",
+    "cross-env": "^7.0.3",
+    "laravel-mix": "^6.0.9",
+    "resolve-url-loader": "^3.1.0",
+    "sass": "^1.32.4",
+    "sass-loader": "^8.0.2"
+  }
+}
